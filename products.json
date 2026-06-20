@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": "notion-life-os",
+      "name": "🧠 Notion Life OS",
+      "tagline": "Complete Life Operating System",
+      "description": "A beautifully organized, interconnected dashboard to manage your entire life from one place. Includes 7 interconnected databases and 5 dashboard views for solopreneurs and professionals who want clarity, momentum, and control.",
+      "price": 19,
+      "currency": "USD",
+      "category": "Notion Dashboard",
+      "features": [
+        "🏠 Command Center — Your daily home base with priorities, deadlines & habits",
+        "🎯 Goals & OKRs — Track quarterly objectives with measurable key results",
+        "✅ Task Manager — Full task management with priority tagging",
+        "📅 Content Calendar — Plan and schedule business content",
+        "💰 Finance Tracker — Track income, expenses, and invoices",
+        "📓 Journal & Reflections — Daily journaling with guided prompts",
+        "🏃 Habits & Routines — Track daily habits with visual streaks"
+      ],
+      "includes": [
+        "7 interconnected Notion databases",
+        "5 customizable dashboard views",
+        "Pre-built formulas and rollups",
+        "Quick-start guide",
+        "Free lifetime updates"
+      ],
+      "format": "Notion Template",
+      "compatible": "All Notion plans",
+      "stripe_payment_link": "https://buy.stripe.com/14A3cv09hewU5i9asD57W00",
+      "delivery_note": "Download includes: Notion template link, setup guide, database schemas",
+      "file": "/download/notion-life-os-template.zip",
+      "preview": "/previews/notion-life-os-preview.png"
+    },
+    {
+      "id": "sheets-budget-planner",
+      "name": "📊 Google Sheets Budget Planner",
+      "tagline": "Take Control of Your Finances",
+      "description": "A powerful yet simple Google Sheets budget tracker designed for freelancers and solopreneurs. Track income, expenses, savings goals, and get a clear picture of your financial health — all in one spreadsheet.",
+      "price": 12,
+      "currency": "USD",
+      "category": "Google Sheets Tool",
+      "features": [
+        "💰 Income & Expense Tracking — Log transactions with categories",
+        "🎯 Savings Goals — Set and track progress toward financial targets",
+        "📈 Monthly Dashboard — Visual overview of your finances",
+        "📊 Annual Summary — See your full year at a glance",
+        "🏷️ Category Breakdown — Know where your money is going",
+        "📱 Mobile-friendly — Works perfectly in the Google Sheets app"
+      ],
+      "includes": [
+        "Pre-built Google Sheet with formulas",
+        "Monthly & annual dashboard views",
+        "Automatic category summaries",
+        "Quick-start guide",
+        "Free lifetime updates"
+      ],
+      "format": "Google Sheets Template",
+      "compatible": "Free Google account",
+      "stripe_payment_link": "https://buy.stripe.com/7sY9ATcW32Och0R1W757W01",
+      "delivery_note": "Download includes: CSV import templates, setup guide, template link",
+      "file": "/download/sheets-budget-planner-template.zip",
+      "preview": "/previews/sheets-budget-planner-preview.png"
+    },
+    {
+      "id": "pdf-weekly-planner",
+      "name": "📝 PDF Weekly Planner",
+      "tagline": "Print Your Productivity",
+      "description": "A clean, minimalist weekly planner PDF designed for focused professionals. Print it out or use it digitally with a PDF annotation app. Stay on top of your week without the digital noise.",
+      "price": 9,
+      "currency": "USD",
+      "category": "PDF Planner",
+      "features": [
+        "📅 Weekly Overview — See your entire week at a glance",
+        "✅ Priority Task List — Focus on what matters most",
+        "⏰ Time-blocked Schedule — Plan your day in 1-hour blocks",
+        "📝 Notes Section — Capture ideas and meeting notes",
+        "💧 Habit Tracker — Build daily routines with checkboxes",
+        "🙏 Gratitude Log — End each day with reflection"
+      ],
+      "includes": [
+        "High-resolution PDF (print-ready)",
+        "12 unique weekly layouts (one per month)",
+        "Bonus: Monthly review page",
+        "Compatible with annotation apps (GoodNotes, Notability)",
+        "A4 & US Letter sizes included"
+      ],
+      "format": "PDF Planner",
+      "compatible": "Print or digital annotation apps",
+      "stripe_payment_link": "https://buy.stripe.com/4gM4gz1dl9cA9yp0S357W02",
+      "delivery_note": "Download includes: 42-page PDF planner (print-ready, letter size)",
+      "file": "/download/pdf-weekly-planner-template.zip",
+      "preview": "/previews/pdf-weekly-planner-preview.png"
+    }
+  ]
+}

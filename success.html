@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Successful — Briefcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .success-page {
+      padding: 100px 24px;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .download-box .btn-download {
+      margin-top: 16px;
+    }
+    .success-email-note {
+      background: #fef3c7;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #92400e;
+      line-height: 1.6;
+    }
+    .success-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <!-- Mini Nav -->
+  <header class="nav">
+    <div class="container">
+      <a href="/" class="logo">
+        <span class="logo-icon">💼</span>
+        <span class="logo-text">Briefcase</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Success Content -->
+  <section class="success-page">
+    <div class="success-card">
+      <div class="success-icon">🎉</div>
+      <h1>Payment Successful!</h1>
+      <p>Thank you for your purchase. Your template is ready for download.</p>
+      
+      <div class="download-box">
+        <h3 id="productName">Your Template</h3>
+        <p>Click the button below to download your file instantly.</p>
+        <a href="#" id="downloadLink" class="btn-download">
+          ⬇ Download Now
+        </a>
+      </div>
+
+      <div class="success-email-note">
+        💡 A backup download link has also been sent to your email. 
+        If you don't see it within a few minutes, check your spam folder.
+      </div>
+
+      <div class="success-actions">
+        <a href="/" class="btn btn-secondary">← Back to Store</a>
+        <a href="/#products" class="btn btn-secondary">Browse More Templates</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Briefcase. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Parse URL params
+      const params = new URLSearchParams(window.location.search);
+      const productId = params.get('product');
+
+      // Load products and update the page
+      fetch('/products.json')
+        .then(r => r.json())
+        .then(data => {
+          const product = data.products.find(p => p.id === productId);
+          if (product) {
+            document.getElementById('productName').textContent = product.name;
+            const link = document.getElementById('downloadLink');
+            if (product.file) {
+              link.href = product.file;
+            }
+          }
+        })
+        .catch(err => console.error('Error loading product info:', err));
+    });
+  </script>
+</body>
+</html>

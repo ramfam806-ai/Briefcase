@@ -1,0 +1,13 @@
+{
+  "name": "briefcase-storefront",
+  "version": "1.0.0",
+  "description": "Briefcase — Premium Digital Templates Storefront",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "stripe": "^22.2.2"
+  }
+}
