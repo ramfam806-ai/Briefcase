@@ -90,6 +90,95 @@
       "delivery_note": "Download includes: 42-page PDF planner (print-ready, letter size)",
       "file": "/download/pdf-weekly-planner-template.zip",
       "preview": "/previews/pdf-weekly-planner-preview.png"
+    },
+    {
+      "id": "notion-content-calendar",
+      "name": "📅 Notion Content Calendar",
+      "tagline": "Plan, Create, and Track All Your Content",
+      "description": "A powerful Notion content planning dashboard with 5 interconnected databases: Command Center, Ideas Bank, Content Calendar, Analytics, and Topic Clusters. Perfect for creators managing multiple platforms.",
+      "price": 14,
+      "currency": "USD",
+      "category": "Notion Dashboard",
+      "features": [
+        "📋 Command Center — Daily content overview and priorities",
+        "💡 Ideas Bank — Capture and organize content ideas",
+        "📅 Content Calendar — Monthly grid view of scheduled content",
+        "📊 Analytics & Performance — Track engagement by platform",
+        "🔍 Topic Clusters & SEO — Organize content by theme",
+        "📱 Platform-specific views — Instagram, Twitter, LinkedIn, Blog"
+      ],
+      "includes": [
+        "5 interconnected Notion databases",
+        "Monthly calendar view",
+        "Pre-built topic cluster system",
+        "Quick-start guide",
+        "Free lifetime updates"
+      ],
+      "format": "Notion Template",
+      "compatible": "All Notion plans",
+      "stripe_payment_link": "https://buy.stripe.com/bJedR9g8f3Sg3a1cAL57W03",
+      "delivery_note": "Download includes: Notion template link, setup guide, database schemas",
+      "file": "/download/notion-content-calendar-template.zip",
+      "preview": "/previews/notion-content-calendar-preview.png"
+    },
+    {
+      "id": "sheets-invoice-tracker",
+      "name": "💼 Google Sheets Invoice Tracker",
+      "tagline": "Get Paid Faster, Track Everything",
+      "description": "A comprehensive Google Sheets invoice tracker with 5 sheets: Dashboard, Invoice Log, Client Directory, Revenue Report, and Payment Tracker. Perfect for freelancers tracking invoices and payments.",
+      "price": 12,
+      "currency": "USD",
+      "category": "Google Sheets Tool",
+      "features": [
+        "📊 Dashboard — Overview of outstanding, paid, and overdue invoices",
+        "📋 Invoice Log — Track every invoice with status and amounts",
+        "👥 Client Directory — Store client info, rates, and payment terms",
+        "💰 Revenue Report — Monthly and yearly revenue summaries",
+        "🔔 Payment Tracker — Auto-calculated overdue flags"
+      ],
+      "includes": [
+        "5 interconnected Google Sheets",
+        "Pre-built invoice numbering",
+        "Auto-calculated totals and aging",
+        "Quick-start guide",
+        "Free lifetime updates"
+      ],
+      "format": "Google Sheets Template",
+      "compatible": "Free Google account",
+      "stripe_payment_link": "https://buy.stripe.com/28EdR9bRZgF26mdeIT57W04",
+      "delivery_note": "Download includes: Google Sheets link + CSV templates + setup guide",
+      "file": "/download/sheets-invoice-tracker-template.zip",
+      "preview": "/previews/sheets-invoice-tracker-preview.png"
+    },
+    {
+      "id": "pdf-goal-planner",
+      "name": "🎯 PDF Goal-Setting Planner",
+      "tagline": "Turn Your Dreams Into Actionable Plans",
+      "description": "A 38-page printable PDF workbook that guides you from big dreams to daily action. Includes 90-Day SMART Goal setting, Monthly Action Plans, Habit Trackers, and Review pages.",
+      "price": 10,
+      "currency": "USD",
+      "category": "PDF Planner",
+      "features": [
+        "🌟 Big Dreams — Vision mapping for 6 life areas",
+        "🎯 90-Day SMART Goals — Break dreams into actionable goals",
+        "📆 Monthly Action Plans — Step-by-step monthly breakdown",
+        "✅ 30-Day Habit Tracker — Build habits that support your goals",
+        "📓 Monthly Reviews — Reflect, adjust, and improve",
+        "🏁 90-Day Review — Full retrospective and next quarter planning"
+      ],
+      "includes": [
+        "38-page PDF (print-ready, letter size)",
+        "Undated — use any year, any quarter",
+        "SMART goal framework",
+        "Habit tracker with 12 habits",
+        "A4 & US Letter sizes included"
+      ],
+      "format": "PDF Planner",
+      "compatible": "Print or digital annotation apps",
+      "stripe_payment_link": "https://buy.stripe.com/7sY5kD7BJ74s4e5bwH57W05",
+      "delivery_note": "Download includes: 38-page PDF planner (print-ready, letter size)",
+      "file": "/download/pdf-goal-planner-template.zip",
+      "preview": "/previews/pdf-goal-planner-preview.png"
     }
   ]
 }
