@@ -205,7 +205,7 @@
       ],
       "format": "Notion Template",
       "compatible": "All Notion plans",
-      "stripe_payment_link": null,
+      "stripe_payment_link": "https://buy.stripe.com/eVqeVd5tBewUaCt6cn57W0a",
       "delivery_note": "Download includes: Notion template link, setup guide, habit tracking guide",
       "file": "/download/notion-habit-tracker-template.zip",
       "preview": null
@@ -234,7 +234,7 @@
       ],
       "format": "Google Sheets Template",
       "compatible": "Free Google account",
-      "stripe_payment_link": null,
+      "stripe_payment_link": "https://buy.stripe.com/28E7sL3lt88wh0R44f57W0b",
       "delivery_note": "Download includes: Google Sheets link + CSV template + setup guide",
       "file": "/download/sheets-time-tracker-template.zip",
       "preview": null
@@ -264,7 +264,7 @@
       ],
       "format": "Notion Template",
       "compatible": "All Notion plans",
-      "stripe_payment_link": null,
+      "stripe_payment_link": "https://buy.stripe.com/dRm9AT09h88w11T6cn57W0c",
       "delivery_note": "Download includes: Notion template link, setup guide, project templates",
       "file": "/download/notion-project-manager-template.zip",
       "preview": null
@@ -294,7 +294,7 @@
       ],
       "format": "PDF Planner",
       "compatible": "Print or digital annotation apps",
-      "stripe_payment_link": null,
+      "stripe_payment_link": "https://buy.stripe.com/28E7sL6xFfAYcKBeIT57W0d",
       "delivery_note": "Download includes: 30-page PDF budget planner (print-ready)",
       "file": "/download/pdf-printable-budget-template.zip",
       "preview": null
