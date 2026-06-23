@@ -179,6 +179,125 @@
       "delivery_note": "Download includes: 38-page PDF planner (print-ready, letter size)",
       "file": "/download/pdf-goal-planner-template.zip",
       "preview": "/previews/pdf-goal-planner-preview.png"
+    },
+    {
+      "id": "notion-habit-tracker",
+      "name": "🏃 Notion Habit Tracker",
+      "tagline": "Build Unstoppable Daily Routines",
+      "description": "A visual habit tracking dashboard for Notion that helps you build, measure, and maintain daily routines. Track streaks, visualize progress, and connect habits to your bigger goals.",
+      "price": 10,
+      "currency": "USD",
+      "category": "Notion Dashboard",
+      "features": [
+        "📊 Weekly Tracker Matrix — See your whole week at a glance",
+        "🔥 Streak Counter — Track consecutive days for each habit",
+        "📈 Monthly Progress — Visual charts of habit completion rates",
+        "🎯 Goal Integration — Link habits to OKRs and quarterly goals",
+        "⏰ Morning & Evening Routines — Pre-built routine templates",
+        "📱 Mobile-friendly — Check habits on the go"
+      ],
+      "includes": [
+        "Pre-built habit tracking database",
+        "Weekly & monthly progress views",
+        "Streak analytics dashboard",
+        "Quick-start guide",
+        "Free lifetime updates"
+      ],
+      "format": "Notion Template",
+      "compatible": "All Notion plans",
+      "stripe_payment_link": null,
+      "delivery_note": "Download includes: Notion template link, setup guide, habit tracking guide",
+      "file": "/download/notion-habit-tracker-template.zip",
+      "preview": null
+    },
+    {
+      "id": "sheets-time-tracker",
+      "name": "⏱️ Google Sheets Freelance Time Tracker",
+      "tagline": "Track Every Billable Minute",
+      "description": "A precise time-tracking spreadsheet for freelancers who bill by the hour. Log projects, track time entries, generate invoices, and see your earnings at a glance.",
+      "price": 10,
+      "currency": "USD",
+      "category": "Google Sheets Tool",
+      "features": [
+        "⏱️ Daily Time Log — Log start/end times by project",
+        "📊 Weekly Summary — See hours per client per week",
+        "💰 Earnings Dashboard — Track billable vs actual earnings",
+        "📋 Invoice Generator — Auto-calculate amounts for invoicing",
+        "📈 Monthly Reports — Compare month-over-month billable hours"
+      ],
+      "includes": [
+        "Pre-built time tracking spreadsheet",
+        "Automatic hourly calculations",
+        "Invoice-ready summaries",
+        "Quick-start guide",
+        "Free lifetime updates"
+      ],
+      "format": "Google Sheets Template",
+      "compatible": "Free Google account",
+      "stripe_payment_link": null,
+      "delivery_note": "Download includes: Google Sheets link + CSV template + setup guide",
+      "file": "/download/sheets-time-tracker-template.zip",
+      "preview": null
+    },
+    {
+      "id": "notion-project-manager",
+      "name": "📋 Notion Project Management Template",
+      "tagline": "Ship Projects On Time, Every Time",
+      "description": "A full-featured project management workspace in Notion. Manage tasks, timelines, team members, and deliverables all from one clean dashboard. Perfect for freelance projects.",
+      "price": 12,
+      "currency": "USD",
+      "category": "Notion Dashboard",
+      "features": [
+        "📊 Project Dashboard — See all projects and their status",
+        "✅ Task Board — Kanban-style task management",
+        "📅 Timeline View — Gantt-style project timelines",
+        "👥 Client Hub — Track client info, contacts, and history",
+        "📁 Deliverables — Store and track project deliverables",
+        "📈 Progress Reports — Visual completion tracking"
+      ],
+      "includes": [
+        "Pre-built project database with views",
+        "Kanban board + timeline + calendar views",
+        "Client management system",
+        "Quick-start guide",
+        "Free lifetime updates"
+      ],
+      "format": "Notion Template",
+      "compatible": "All Notion plans",
+      "stripe_payment_link": null,
+      "delivery_note": "Download includes: Notion template link, setup guide, project templates",
+      "file": "/download/notion-project-manager-template.zip",
+      "preview": null
+    },
+    {
+      "id": "pdf-printable-budget",
+      "name": "💵 PDF Printable Budget Planner",
+      "tagline": "Take Control of Your Money on Paper",
+      "description": "A beautiful 30-page printable PDF budget planner that helps you track income, expenses, savings, and debt payoff goals. Undated so you can use it any month, any year.",
+      "price": 9,
+      "currency": "USD",
+      "category": "PDF Planner",
+      "features": [
+        "💰 Monthly Budget — Track income vs expenses by category",
+        "🏦 Savings Tracker — Set and track savings goals",
+        "📉 Debt Payoff Planner — Snowball and avalanche methods",
+        "📊 Expense Log — Daily expense tracking with categories",
+        "📈 Annual Overview — See your full financial year",
+        "🙏 Financial Reflection — Monthly review prompts"
+      ],
+      "includes": [
+        "30-page PDF (print-ready, letter size)",
+        "Undated — use any month, any year",
+        "Debt payoff calculator worksheets",
+        "Savings goal trackers",
+        "A4 & US Letter sizes included"
+      ],
+      "format": "PDF Planner",
+      "compatible": "Print or digital annotation apps",
+      "stripe_payment_link": null,
+      "delivery_note": "Download includes: 30-page PDF budget planner (print-ready)",
+      "file": "/download/pdf-printable-budget-template.zip",
+      "preview": null
     }
   ]
 }
